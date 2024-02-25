@@ -1,0 +1,54 @@
+[9.851s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build
+[11.230s] running develop
+[11.231s] Removing /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[13.568s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build
+[13.573s] Invoking command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/executors': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[14.279s] running egg_info
+[14.280s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[14.280s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[14.280s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[14.281s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[14.281s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[14.317s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[14.318s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[14.318s] running build
+[14.318s] running build_py
+[14.319s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build
+[14.319s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib
+[14.319s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.319s] copying examples_rclpy_executors/custom_executor.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.319s] copying examples_rclpy_executors/talker.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.319s] copying examples_rclpy_executors/listener.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.320s] copying examples_rclpy_executors/custom_callback_group.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.320s] copying examples_rclpy_executors/__init__.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.320s] copying examples_rclpy_executors/callback_group.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.320s] copying examples_rclpy_executors/composed.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[14.320s] running install
+[14.322s] running install_lib
+[14.323s] creating /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.323s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.323s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.323s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.323s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.324s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.324s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.324s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[14.325s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[14.327s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[14.327s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[14.330s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[14.330s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[14.330s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[14.330s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[14.330s] running install_data
+[14.331s] running install_egg_info
+[14.333s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.15.1-py3.8.egg-info
+[14.334s] running install_scripts
+[14.363s] Installing callback_group script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[14.363s] Installing composed script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[14.363s] Installing custom_callback_group script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[14.364s] Installing custom_executor script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[14.364s] Installing listener script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[14.364s] Installing talker script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[14.364s] writing list of installed files to '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/install.log'
+[20.594s] Invoked command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

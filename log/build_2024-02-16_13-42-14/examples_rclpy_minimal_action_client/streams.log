@@ -1,0 +1,20 @@
+[8.695s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data
+[10.084s] running develop
+[10.084s] running egg_info
+[10.084s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[10.084s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[10.084s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[10.084s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[10.084s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[10.084s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[10.084s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[10.084s] running build_ext
+[10.084s] Creating /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[10.084s] Installing client script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.084s] Installing client_asyncio script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.085s] Installing client_cancel script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.085s] Installing client_not_composable script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[10.085s] 
+[10.085s] Installed /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client
+[10.085s] running install_data
+[13.044s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data

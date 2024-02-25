@@ -1,0 +1,19 @@
+[11.387s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[12.194s] running develop
+[12.442s] running egg_info
+[12.446s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[12.446s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[12.446s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[12.446s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[12.446s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[12.468s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[12.469s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[12.520s] running build_ext
+[12.520s] Creating /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[12.521s] Installing subscriber_lambda script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[12.521s] Installing subscriber_member_function script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[12.523s] Installing subscriber_old_school script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[12.523s] 
+[12.523s] Installed /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber
+[12.524s] running install_data
+[12.596s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

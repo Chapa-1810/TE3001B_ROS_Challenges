@@ -1,0 +1,42 @@
+[10.956s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build
+[11.800s] running develop
+[12.052s] Removing /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[12.086s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build
+[12.091s] Invoking command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[12.825s] running egg_info
+[12.826s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[12.826s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[12.827s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[12.827s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[12.827s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[12.870s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[12.870s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[12.870s] running build
+[12.870s] running build_py
+[12.870s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build
+[12.870s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib
+[12.870s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[12.870s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[12.870s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[12.870s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[12.871s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[12.871s] running install
+[12.873s] running install_lib
+[12.874s] creating /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[12.874s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[12.874s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[12.874s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[12.874s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[12.876s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[12.880s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[12.880s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[12.881s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[12.881s] running install_data
+[12.881s] running install_egg_info
+[12.886s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.8.egg-info
+[12.886s] running install_scripts
+[12.914s] Installing publisher_local_function script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[12.914s] Installing publisher_member_function script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[12.914s] Installing publisher_old_school script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[12.914s] writing list of installed files to '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/install.log'
+[13.519s] Invoked command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

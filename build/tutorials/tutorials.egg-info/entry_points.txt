@@ -1,0 +1,4 @@
+[console_scripts]
+listener = tutorials.listener_test:main
+talker = tutorials.test:main
+

@@ -1,0 +1,42 @@
+[10.317s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build
+[11.085s] running develop
+[11.337s] Removing /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[11.370s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build
+[11.375s] Invoking command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[12.140s] running egg_info
+[12.141s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[12.141s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[12.141s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[12.141s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[12.141s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[12.187s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[12.187s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[12.188s] running build
+[12.188s] running build_py
+[12.188s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build
+[12.188s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[12.188s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[12.188s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[12.188s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[12.188s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[12.188s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[12.189s] running install
+[12.191s] running install_lib
+[12.192s] creating /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[12.192s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[12.192s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[12.192s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[12.192s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[12.194s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-38.pyc
+[12.195s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-38.pyc
+[12.196s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-38.pyc
+[12.196s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[12.196s] running install_data
+[12.196s] running install_egg_info
+[12.199s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.15.1-py3.8.egg-info
+[12.200s] running install_scripts
+[12.229s] Installing subscriber_lambda script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[12.229s] Installing subscriber_member_function script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[12.229s] Installing subscriber_old_school script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[12.230s] writing list of installed files to '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[12.259s] Invoked command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

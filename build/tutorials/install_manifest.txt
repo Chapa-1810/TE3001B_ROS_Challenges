@@ -1,0 +1,15 @@
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/ament_index/resource_index/package_run_dependencies/tutorials
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/ament_index/resource_index/parent_prefix_path/tutorials
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/environment/ament_prefix_path.sh
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/environment/ament_prefix_path.dsv
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/environment/path.sh
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/environment/path.dsv
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/local_setup.bash
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/local_setup.sh
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/local_setup.zsh
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/local_setup.dsv
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/package.dsv
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/ament_index/resource_index/packages/tutorials
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/cmake/tutorialsConfig.cmake
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/cmake/tutorialsConfig-version.cmake
+/home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials/package.xml

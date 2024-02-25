@@ -1,0 +1,35 @@
+running egg_info
+creating build/tutorials/tutorials.egg-info
+writing build/tutorials/tutorials.egg-info/PKG-INFO
+writing dependency_links to build/tutorials/tutorials.egg-info/dependency_links.txt
+writing entry points to build/tutorials/tutorials.egg-info/entry_points.txt
+writing requirements to build/tutorials/tutorials.egg-info/requires.txt
+writing top-level names to build/tutorials/tutorials.egg-info/top_level.txt
+writing manifest file 'build/tutorials/tutorials.egg-info/SOURCES.txt'
+reading manifest file 'build/tutorials/tutorials.egg-info/SOURCES.txt'
+writing manifest file 'build/tutorials/tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build/lib
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build/lib/tutorials
+copying tutorials/__init__.py -> /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build/lib/tutorials
+copying tutorials/test.py -> /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build/lib/tutorials
+running install
+running install_lib
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials
+copying /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build/lib/tutorials/__init__.py -> /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials
+copying /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build/lib/tutorials/test.py -> /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials
+byte-compiling /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials/test.py to test.cpython-38.pyc
+running install_data
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/share/ament_index
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/share/ament_index/resource_index
+creating /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/share/ament_index/resource_index/packages
+copying resource/tutorials -> /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/share/ament_index/resource_index/packages
+copying package.xml -> /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/share/tutorials
+running install_egg_info
+Copying build/tutorials/tutorials.egg-info to /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials-0.0.0-py3.8.egg-info
+running install_scripts
+Installing talker script to /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/tutorials
+writing list of installed files to '/home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/install.log'

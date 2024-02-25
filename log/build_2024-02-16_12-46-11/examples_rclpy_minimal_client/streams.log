@@ -1,0 +1,46 @@
+[11.193s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build
+[11.982s] running develop
+[12.236s] Removing /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[12.271s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build
+[12.275s] Invoking command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[13.128s] running egg_info
+[13.129s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[13.129s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[13.129s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[13.130s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[13.130s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[13.170s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[13.170s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[13.170s] running build
+[13.170s] running build_py
+[13.170s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build
+[13.170s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib
+[13.171s] creating /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[13.171s] copying examples_rclpy_minimal_client/client.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[13.171s] copying examples_rclpy_minimal_client/__init__.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[13.171s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[13.171s] copying examples_rclpy_minimal_client/client_async.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[13.171s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[13.171s] running install
+[13.176s] running install_lib
+[13.176s] creating /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[13.177s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[13.180s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[13.181s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[13.181s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[13.181s] copying /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[13.181s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-38.pyc
+[13.184s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-38.pyc
+[13.184s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-38.pyc
+[13.184s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-38.pyc
+[13.184s] byte-compiling /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-38.pyc
+[13.184s] running install_data
+[13.186s] running install_egg_info
+[13.186s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.15.1-py3.8.egg-info
+[13.186s] running install_scripts
+[13.210s] Installing client script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[13.210s] Installing client_async script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[13.210s] Installing client_async_callback script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[13.210s] Installing client_async_member_function script to /home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[13.210s] writing list of installed files to '/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/install.log'
+[13.322s] Invoked command in '/home/alexis/rso2_tutorials_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/prefix_override:/home/alexis/rso2_tutorials_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/build install --record /home/alexis/rso2_tutorials_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

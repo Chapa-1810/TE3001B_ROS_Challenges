@@ -1,0 +1,18 @@
+[2.134s] Invoking command in '/home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials': PYTHONPATH=/home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/prefix_override:/home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build --no-deps install_data
+[2.833s] running develop
+[3.059s] running egg_info
+[3.059s] writing tutorials.egg-info/PKG-INFO
+[3.059s] writing dependency_links to tutorials.egg-info/dependency_links.txt
+[3.059s] writing entry points to tutorials.egg-info/entry_points.txt
+[3.060s] writing requirements to tutorials.egg-info/requires.txt
+[3.060s] writing top-level names to tutorials.egg-info/top_level.txt
+[3.086s] reading manifest file 'tutorials.egg-info/SOURCES.txt'
+[3.087s] writing manifest file 'tutorials.egg-info/SOURCES.txt'
+[3.129s] running build_ext
+[3.129s] Creating /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages/tutorials.egg-link (link to .)
+[3.129s] Installing listener script to /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/tutorials
+[3.130s] Installing talker script to /home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/tutorials
+[3.130s] 
+[3.130s] Installed /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials
+[3.130s] running install_data
+[3.160s] Invoked command in '/home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/prefix_override:/home/alexis/rso2_tutorials_ws/src/tutorials/install/tutorials/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/src/tutorials/build/tutorials/build --no-deps install_data

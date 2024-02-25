@@ -1,0 +1,16 @@
+[10.688s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/launch_testing_examples': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/launch_testing_examples/prefix_override:/home/alexis/rso2_tutorials_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/launch_testing_examples/build --no-deps install_data
+[11.521s] running develop
+[11.769s] running egg_info
+[11.770s] writing launch_testing_examples.egg-info/PKG-INFO
+[11.770s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[11.770s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[11.771s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[11.771s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[11.801s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[11.803s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[11.847s] running build_ext
+[11.847s] Creating /home/alexis/rso2_tutorials_ws/install/launch_testing_examples/lib/python3.8/site-packages/launch-testing-examples.egg-link (link to .)
+[11.848s] 
+[11.848s] Installed /home/alexis/rso2_tutorials_ws/build/launch_testing_examples
+[11.848s] running install_data
+[12.170s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/launch_testing_examples/prefix_override:/home/alexis/rso2_tutorials_ws/install/launch_testing_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/launch_testing_examples/build --no-deps install_data

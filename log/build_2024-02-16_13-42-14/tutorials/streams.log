@@ -1,0 +1,23 @@
+[9.575s] Invoking command in '/home/alexis/rso2_tutorials_ws/build/tutorials': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/tutorials/prefix_override:/home/alexis/rso2_tutorials_ws/install/tutorials/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/tutorials/build --no-deps install_data
+[10.386s] running develop
+[10.623s] running egg_info
+[10.625s] creating tutorials.egg-info
+[10.626s] writing tutorials.egg-info/PKG-INFO
+[10.626s] writing dependency_links to tutorials.egg-info/dependency_links.txt
+[10.626s] writing entry points to tutorials.egg-info/entry_points.txt
+[10.626s] writing requirements to tutorials.egg-info/requires.txt
+[10.626s] writing top-level names to tutorials.egg-info/top_level.txt
+[10.626s] writing manifest file 'tutorials.egg-info/SOURCES.txt'
+[10.656s] reading manifest file 'tutorials.egg-info/SOURCES.txt'
+[10.658s] writing manifest file 'tutorials.egg-info/SOURCES.txt'
+[10.701s] running build_ext
+[10.701s] Creating /home/alexis/rso2_tutorials_ws/install/tutorials/lib/python3.8/site-packages/site.py
+[10.706s] Creating /home/alexis/rso2_tutorials_ws/install/tutorials/lib/python3.8/site-packages/tutorials.egg-link (link to .)
+[10.707s] Installing listener script to /home/alexis/rso2_tutorials_ws/install/tutorials/lib/tutorials
+[10.708s] Installing talker script to /home/alexis/rso2_tutorials_ws/install/tutorials/lib/tutorials
+[10.708s] 
+[10.708s] Installed /home/alexis/rso2_tutorials_ws/build/tutorials
+[10.708s] running install_data
+[10.708s] copying resource/tutorials -> /home/alexis/rso2_tutorials_ws/install/tutorials/share/ament_index/resource_index/packages
+[10.708s] copying package.xml -> /home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials
+[11.123s] Invoked command in '/home/alexis/rso2_tutorials_ws/build/tutorials' returned '0': PYTHONPATH=/home/alexis/rso2_tutorials_ws/build/tutorials/prefix_override:/home/alexis/rso2_tutorials_ws/install/tutorials/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/alexis/rso2_tutorials_ws/build/tutorials/build --no-deps install_data

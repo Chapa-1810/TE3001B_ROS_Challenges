@@ -1,0 +1,12 @@
+source;share/tutorials/hook/cmake_prefix_path.ps1
+source;share/tutorials/hook/cmake_prefix_path.dsv
+source;share/tutorials/hook/cmake_prefix_path.sh
+source;share/tutorials/hook/pythonpath.ps1
+source;share/tutorials/hook/pythonpath.dsv
+source;share/tutorials/hook/pythonpath.sh
+source;share/tutorials/hook/ament_prefix_path.ps1
+source;share/tutorials/hook/ament_prefix_path.dsv
+source;share/tutorials/hook/ament_prefix_path.sh
+source;../../build/tutorials/share/tutorials/hook/pythonpath_develop.ps1
+source;../../build/tutorials/share/tutorials/hook/pythonpath_develop.dsv
+source;../../build/tutorials/share/tutorials/hook/pythonpath_develop.sh

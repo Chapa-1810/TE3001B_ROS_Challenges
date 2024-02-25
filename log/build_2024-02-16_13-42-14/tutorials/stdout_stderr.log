@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating tutorials.egg-info
+writing tutorials.egg-info/PKG-INFO
+writing dependency_links to tutorials.egg-info/dependency_links.txt
+writing entry points to tutorials.egg-info/entry_points.txt
+writing requirements to tutorials.egg-info/requires.txt
+writing top-level names to tutorials.egg-info/top_level.txt
+writing manifest file 'tutorials.egg-info/SOURCES.txt'
+reading manifest file 'tutorials.egg-info/SOURCES.txt'
+writing manifest file 'tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alexis/rso2_tutorials_ws/install/tutorials/lib/python3.8/site-packages/site.py
+Creating /home/alexis/rso2_tutorials_ws/install/tutorials/lib/python3.8/site-packages/tutorials.egg-link (link to .)
+Installing listener script to /home/alexis/rso2_tutorials_ws/install/tutorials/lib/tutorials
+Installing talker script to /home/alexis/rso2_tutorials_ws/install/tutorials/lib/tutorials
+
+Installed /home/alexis/rso2_tutorials_ws/build/tutorials
+running install_data
+copying resource/tutorials -> /home/alexis/rso2_tutorials_ws/install/tutorials/share/ament_index/resource_index/packages
+copying package.xml -> /home/alexis/rso2_tutorials_ws/install/tutorials/share/tutorials
