@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/alexis/rso2_tutorials_ws/install/tutorials'
+sys.prefix = sys.exec_prefix = '/home/alexis/TE3001B_ROS_Challenges/install/tutorials'

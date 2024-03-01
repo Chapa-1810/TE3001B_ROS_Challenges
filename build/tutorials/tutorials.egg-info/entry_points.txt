@@ -1,4 +1,5 @@
 [console_scripts]
-listener = tutorials.listener_test:main
-talker = tutorials.test:main
+holder = tutorials.holder:main
+process = tutorials.process:main
+signal = tutorials.signal:main
 

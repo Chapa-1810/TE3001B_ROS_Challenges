@@ -3,8 +3,9 @@ setup.cfg
 setup.py
 resource/tutorials
 tutorials/__init__.py
-tutorials/listener_test.py
-tutorials/test.py
+tutorials/holder.py
+tutorials/process.py
+tutorials/signal.py
 tutorials.egg-info/PKG-INFO
 tutorials.egg-info/SOURCES.txt
 tutorials.egg-info/dependency_links.txt

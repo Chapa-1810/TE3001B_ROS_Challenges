@@ -1,1 +1,0 @@
-/home/alexis/rso2_tutorials_ws/src/examples/rclpy/topics/pointcloud_publisher/setup.py
