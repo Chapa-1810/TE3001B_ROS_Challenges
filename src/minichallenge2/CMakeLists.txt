@@ -15,10 +15,13 @@ find_package(ros_msgs REQUIRED)
 
 add_executable(signal_generator src/signal_generator.cpp)
 ament_target_dependencies(signal_generator rclcpp std_msgs ros_msgs)
+add_executable(signal_reconstruction src/signal_reconstruction.cpp)
+ament_target_dependencies(signal_reconstruction rclcpp std_msgs ros_msgs)
 # ament_target_dependencies(signal_generator rclcpp std_msgs)
 
 install(TARGETS
   signal_generator
+  signal_reconstruction
   DESTINATION lib/${PROJECT_NAME})
 
 install(

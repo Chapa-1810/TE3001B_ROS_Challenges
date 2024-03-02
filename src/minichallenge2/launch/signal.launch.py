@@ -11,8 +11,11 @@ def generate_launch_description():
             parameters=[os.path.join(get_package_share_directory('minichallenge2'), 'config', 'signal_parameters.yaml')]
         ),
         Node(
+            package='minichallenge2', executable='signal_reconstruction', output='screen', emulate_tty=True
+        ),
+        Node(
             package='rqt_plot', executable='rqt_plot', output='screen', emulate_tty=True,
-            arguments=["/signal_.data"]
+            arguments=["/signal_.data /signal_reconstructed_.data"]
         ),
         
     ])

@@ -14,7 +14,7 @@ using namespace std::chrono_literals;
 rclcpp::TimerBase::SharedPtr timer_;
 rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr publisher_signal_;
 rclcpp::Publisher<ros_msgs::msg::SignalParams>::SharedPtr publisher_params_;
-size_t time_;
+long long time_;
 std::shared_ptr<rclcpp::Node> node_;
 
 void timer_callback()
@@ -62,9 +62,9 @@ int main(int argc, char * argv[])
   node_->declare_parameter("frequency", 2.0);
   node_->declare_parameter("offset", 0.0);
   node_->declare_parameter("time", 0.0);
-  publisher_signal_ = node_->create_publisher<std_msgs::msg::Float32>("signal", 10);
+  publisher_signal_ = node_->create_publisher<std_msgs::msg::Float32>("signal", 1000);
   publisher_params_ = node_->create_publisher<ros_msgs::msg::SignalParams>("signal_params", 10);
-  timer_ = node_->create_wall_timer(100ms, timer_callback);
+  timer_ = node_->create_wall_timer(500ms, timer_callback);
 
   rclcpp::spin(node_);
   rclcpp::shutdown();
