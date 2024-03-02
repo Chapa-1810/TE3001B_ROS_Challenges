@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/alexis/TE3001B_ROS_Challenges/build/tutorials",
+        "/home/alexis/TE3001B_ROS_Challenges/install/tutorials/lib/python3.10/site-packages",
+        "/home/alexis/test_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/alexis/TE3001B_ROS_Challenges/build/tutorials",
+        "/home/alexis/TE3001B_ROS_Challenges/install/tutorials/lib/python3.10/site-packages",
+        "/home/alexis/test_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
