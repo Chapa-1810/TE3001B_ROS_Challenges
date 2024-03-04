@@ -26,13 +26,15 @@ ROS messages/srvs are called both in the same way in a C++ node, they must be in
 Some key factors when getting the custom msg to a different package or file, it's that besides the name of the file being able to have upper cases within it, when called for, they are depreciated and converted all into lower case letters. At the same time, if the file name has more than one upper case in it, then the way to call it in a c++ node should be to add a lower tab before the letter. For example:
 
 
-**Interfaces**:
-    |*FILE NAME*|*TO INCLUDE*|
-    |-----------|------------|
-    |EXAMPLE.msg|example.hpp|
-    |Example.srv|example.hpp|
-    |OtherExample.msg|other_example.hpp|
-    |otherExample|*NOT INCLUDED*|
+**Interfaces**
+
+| *FILE NAME* | *TO INCLUDE* |
+| --- | --- |
+| EXAMPLE.msg | example.hpp |
+| Example.srv | example.hpp |
+| OtherExample.msg |other_example.hpp |
+| otherExample | *NOT INCLUDED* |
+
 
 
 
