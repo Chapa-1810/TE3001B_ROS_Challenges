@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'tutorials'
+package_name = 'minichallenge1'
 
 setup(
     name=package_name,
@@ -20,9 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'signal = tutorials.signal:main',
-            'process = tutorials.process:main', 
-            'holder = tutorials.holder:main', 
+            'signal = minichallenge1.signal:main',
+            'process = minichallenge1.process:main', 
         ],
     },
 )
