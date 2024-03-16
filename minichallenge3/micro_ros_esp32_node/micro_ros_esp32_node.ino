@@ -26,7 +26,7 @@ int potPin = 34;   // select the input pin for the potentiometer
 int potValue = 0;
 float voltage = 0;
 
-int pwm_pin = 35;
+int pwm_pin = 16;
 int freq = 5000;
 int led_cha = 0;
 int resulution = 8;
@@ -64,7 +64,6 @@ void timer_callback_vol(rcl_timer_t * timer, int64_t last_call_time)
     pub_msg_vol.data = voltage;
     pub_msg_raw.data = potValue;
     RCSOFTCHECK(rcl_publish(&publisher_vol, &pub_msg_vol, NULL));
-    RCSOFTCHECK(rcl_publish(&publisher_vol, &pub_msg_vol, NULL));
     RCSOFTCHECK(rcl_publish(&publisher_raw, &pub_msg_raw, NULL));
     //msg.data++;
   }
@@ -73,7 +72,8 @@ void timer_callback_vol(rcl_timer_t * timer, int64_t last_call_time)
 
 void frequency_callback(const void * msgin){
   const std_msgs__msg__Float32 * msg = (const std_msgs__msg__Float32 *)msgin;
-  ledcWrite(led_cha, msg->data / 3.3 * 255);
+  float duty_cycle = max(0, min(msg->data,100));
+  ledcWrite(led_cha, duty_cycle * 255);
 }
 
 void setup() {
