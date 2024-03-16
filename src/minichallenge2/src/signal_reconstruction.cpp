@@ -44,7 +44,7 @@ int main(int argc, char * argv[])
 { 
   rclcpp::init(argc, argv);
   node_ = rclcpp::Node::make_shared("signal_recontruction");
-  publisher_signal_ = node_->create_publisher<std_msgs::msg::Float32>("signal_reconstructed", 1000);
+  publisher_signal_ = node_->create_publisher<std_msgs::msg::Float32>("signal_reconstructed", 10);
   subscriber_params_ = node_->create_subscription<ros_msgs::msg::SignalParams>("signal_params", 10, std::bind(topic_callback, std::placeholders::_1));
   rclcpp::spin(node_);
   rclcpp::shutdown();

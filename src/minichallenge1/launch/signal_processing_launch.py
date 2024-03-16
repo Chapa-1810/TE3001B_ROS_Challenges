@@ -15,4 +15,9 @@ def generate_launch_description():
             executable='signal',
             name='signal'
         ),
+
+        Node(
+            package='rqt_plot', executable='rqt_plot', output='screen', emulate_tty=True,
+            arguments=["/proc_signal/data", "/signal/data"]
+        ),
     ])

@@ -15,7 +15,7 @@ def generate_launch_description():
         ),
         Node(
             package='rqt_plot', executable='rqt_plot', output='screen', emulate_tty=True,
-            arguments=["/signal_.data /signal_reconstructed_.data"]
+            arguments=["/signal/data",  "/signal_reconstructed/data"]
         ),
         
     ])

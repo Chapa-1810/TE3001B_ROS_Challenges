@@ -50,5 +50,8 @@
         "/home/alexis/TE3001B_ROS_Challenges/install/examples_rclpy_executors/lib/python3.8/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "files.associations": {
+        "chrono": "cpp"
+    }
 }

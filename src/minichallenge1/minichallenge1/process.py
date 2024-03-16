@@ -20,8 +20,8 @@ class SignalProcessor(Node):
             self.time_callback,
             10)
 
-        self.signal = 0
-        self.time = 0
+        self.signal = 0.0
+        self.time = 0.0
 
         self.int_publisher_ = self.create_publisher(Float32, '/proc_signal', 10)
         self.timer_ = self.create_timer(0.1, self.timer_callback)
